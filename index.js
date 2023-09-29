@@ -1,3 +1,4 @@
+#!/path/to/node
 const fs = require('fs');
 const fetch = require('node-fetch');
 const yaml = require('js-yaml');
