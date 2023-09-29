@@ -1,0 +1,16 @@
+{
+  "name": "gha-version-inspector",
+  "version": "1.0.0",
+  "description": "Inspect and audit the versions of GitHub Actions used in your project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^3.1.0"
+  }
+}
