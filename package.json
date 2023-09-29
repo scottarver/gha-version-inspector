@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Inspect and audit the versions of GitHub Actions used in your project.",
   "main": "index.js",
+  "bin": {
+    "gha-version-inspector": "./index.js"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
